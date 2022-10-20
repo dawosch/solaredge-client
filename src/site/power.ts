@@ -1,6 +1,6 @@
 // import fetch from 'node-fetch';
 import axios from 'axios';
-import { SitePowerResponse } from '../../types';
+import { SitePowerResponse } from '../types';
 
 export const getEnergy = async (
   token: string,

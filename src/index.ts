@@ -1,4 +1,4 @@
-import { getList, getDetails, getEnergy } from './api/site';
+import { getList, getDetails, getEnergy } from './site';
 import { SiteEnergyParams } from './types';
 
 const API_ORIGIN = 'https://monitoringapi.solaredge.com';

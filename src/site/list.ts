@@ -1,6 +1,6 @@
 // import fetch from 'node-fetch';
 import axios from 'axios';
-import { SearchText, SiteListResponse, SortOrder, SortProperty, Status } from '../../types';
+import { SearchText, SiteListResponse, SortOrder, SortProperty, Status } from '../types';
 
 const PATHNAME = '/sites/list';
 

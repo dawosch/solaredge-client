@@ -41,8 +41,8 @@ At this time all responses are in JSON
 ### Language and Time Encoding
 - Data is retrieved using UTF-8
 - Date and time formats are:
-- - Date only: YYYY-MM-DD
-- - Date and time: YYYY-MM-DD hh:mm:ss
+ - Date only: YYYY-MM-DD
+ - Date and time: YYYY-MM-DD hh:mm:ss
 
 ### JSONP Support
 JSONP is ***not*** supported at this time

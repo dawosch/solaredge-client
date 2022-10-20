@@ -1,6 +1,6 @@
 // import fetch from 'node-fetch';
 import axios from 'axios';
-import { SiteEnergyParams, SiteEnergyResponse } from '../../types';
+import { SiteEnergyParams, SiteEnergyResponse } from '../types';
 
 export const getEnergy = async (token: string, origin: string, { siteId, startDate, endDate, timeUnit }: SiteEnergyParams): Promise<SiteEnergyResponse> => {
   let url = `${origin}/site/${siteId}/energy`;
