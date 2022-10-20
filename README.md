@@ -2,63 +2,35 @@
 This is a library for using the SolarEdge Cloud API.
 
 ## Supported Endpoints
-[x] Site List
-
-[x] Site Details
-
-[x] Site Data
-
-[ ] Site Data: Bulk Version
-
-[x] Site Energy
-
-[ ] Site Energy: Bulk Version
-
-[ ] Site Energy - Time Period *
-
-[ ] Site Energy - Time Period: Bulk Version
-
-[ ] Site Energy - Detailed *
-
-[x] Site Power
-
-[ ] Site Power - Details *
-
-[ ] Site Power: Bulk Version
-
-[ ] Site Overview *
-
-[ ] Site Overview: Bulk Version
-
-[ ] Site Power Flow *
-
-[ ] Storage Information *
-
-[ ] Site Image
-
-[ ] Site Environmental Benefits
-
-[ ] Installer Logo Image
-
-[ ] Components List
-
-[ ] Inventory
-
-[ ] Inverter Technical Data
-
-[ ] Equipment Change Log
-
-[ ] Account List API
-
-[ ] Get Meters Data
-
-[ ] Get Sensor List
-
-[ ] Get Sensor Data
-
-[ ] Current Version
-
-[ ] Supported Version
+- [x] Site List
+- [x] Site Details
+- [x] Site Data
+- [ ] Site Data: Bulk Version
+- [x] Site Energy
+- [ ] Site Energy: Bulk Version
+- [ ] Site Energy - Time Period *
+- [ ] Site Energy - Time Period: Bulk Version
+- [ ] Site Energy - Detailed *
+- [x] Site Power
+- [ ] Site Power - Details *
+- [ ] Site Power: Bulk Version
+- [ ] Site Overview *
+- [ ] Site Overview: Bulk Version
+- [ ] Site Power Flow *
+- [ ] Storage Information *
+- [ ] Site Image
+- [ ] Site Environmental Benefits
+- [ ] Installer Logo Image
+- [ ] Components List
+- [ ] Inventory
+- [ ] Inverter Technical Data
+- [ ] Equipment Change Log
+- [ ] Account List API
+- [ ] Get Meters Data
+- [ ] Get Sensor List
+- [ ] Get Sensor Data
+- [ ] Current Version
+- [ ] Supported Version
 
 ****Highest Priority***
 
