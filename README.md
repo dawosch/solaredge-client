@@ -8,7 +8,7 @@ This is a library for using the SolarEdge Cloud API.
 - Site Energy
 - Site Power
 
-## Not Supported Entpoints (yet)
+## Not Supported Endpoints (yet)
 - Site Data: Bulk Version
 - Site Energy: Bulk Version
 - Site Energy - Time Period *
