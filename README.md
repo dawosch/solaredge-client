@@ -7,6 +7,7 @@ This is a library for using the SolarEdge Cloud API.
 - Site Data
 - Site Energy
 - Site Power
+- Site Overview
 
 ## Not Supported Endpoints (yet)
 - Site Data: Bulk Version
@@ -16,7 +17,6 @@ This is a library for using the SolarEdge Cloud API.
 - Site Energy - Detailed *
 - Site Power - Details *
 - Site Power: Bulk Version
-- Site Overview *
 - Site Overview: Bulk Version
 - Site Power Flow *
 - Storage Information *

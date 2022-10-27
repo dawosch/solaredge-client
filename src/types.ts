@@ -61,6 +61,8 @@ export type SiteEnergyResponse = {
   };
 };
 
+export type SitePowerParams = { siteId: number; startTime: string; endTime: string };
+
 export type SitePowerResponse = {
   power: {
     timeUnit: TimeUnit;
@@ -69,5 +71,30 @@ export type SitePowerResponse = {
       date: Date;
       value: number;
     }[];
+  };
+};
+
+export type SiteOverviewResponse = {
+  owerview: {
+    lastUpdateTime: string;
+    lifeTimeData: {
+      energy: number;
+      revenue: number;
+    };
+    lastYearData: {
+      energy: number;
+      revenue: number;
+    };
+    lastMonthData: {
+      energy: number;
+      revenue: number;
+    };
+    lastDayData: {
+      energy: number;
+      revenue: number;
+    };
+    currentPower: {
+      power: number;
+    };
   };
 };
