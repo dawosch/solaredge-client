@@ -1,6 +1,6 @@
 {
   "name": "solaredge-client",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Dawosch",
@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "build": "tsc -p .",
+    "prepublishOnly": "tsc -p .",
     "test": "jest --verbose"
   },
   "devDependencies": {
