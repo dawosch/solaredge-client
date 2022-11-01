@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { SiteDetailResponse } from '../types';
 
-export const getDetails = async (token: string, origin: string, siteId: string): Promise<SiteDetailResponse> => {
+export const getDetails = async (token: string, origin: string, siteId: number): Promise<SiteDetailResponse> => {
   let url = `${origin}/site/${siteId}/details`;
   url += encodeURI(`api_key=${token}`);
 

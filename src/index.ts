@@ -12,10 +12,10 @@ class SolarEdgeClient {
   }
 
   public getList = () => getList(this.token, this.origin);
-  public getDetails = (siteId: string) => getDetails(this.token, this.origin, siteId);
+  public getDetails = (siteId: number) => getDetails(this.token, this.origin, siteId);
   public getEnergy = (params: SiteEnergyParams) => getEnergy(this.token, this.origin, params);
   public getPower = (params: SitePowerParams) => getPower(this.token, this.origin, params);
-  public getOverview = (siteId: string) => getOverview(this.token, this.origin, siteId);
+  public getOverview = (siteId: number) => getOverview(this.token, this.origin, siteId);
 }
 
 export default SolarEdgeClient;
