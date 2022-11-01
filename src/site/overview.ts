@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { SiteOverviewResponse } from '../types';
 
-export const getOverview = async (token: string, origin: string, siteId: number): Promise<SiteOverviewResponse> => {
+export const getOverview = async (token: string, origin: string, siteId: string): Promise<SiteOverviewResponse> => {
   const url = `${origin}/site/${siteId}/overview?api_key=${token}`;
 
   const res = await axios.get(url, { headers: { accept: 'application/json' } });

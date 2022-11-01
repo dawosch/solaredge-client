@@ -48,7 +48,7 @@ export type SiteDetailResponse = {
   details: SiteDataResponse;
 };
 
-export type SiteEnergyParams = { siteId: number; startDate: string; endDate: string; timeUnit: TimeUnit };
+export type SiteEnergyParams = { siteId: string; startDate: string; endDate: string; timeUnit: TimeUnit };
 
 export type SiteEnergyResponse = {
   energy: {
@@ -61,7 +61,7 @@ export type SiteEnergyResponse = {
   };
 };
 
-export type SitePowerParams = { siteId: number; startTime: string; endTime: string };
+export type SitePowerParams = { siteId: string; startTime: string; endTime: string };
 
 export type SitePowerResponse = {
   power: {
