@@ -105,7 +105,7 @@ export type SitePowerFlowResponse = {
     connections: {
       from: 'GRID' | 'LOAD' | 'PV' | 'STORAGE';
       to: 'GRID' | 'LOAD' | 'PV' | 'STORAGE';
-    };
+    }[];
     GRID: {
       status: 'Active' | 'Idle' | 'Disabled';
       currentPower: number;
