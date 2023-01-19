@@ -75,7 +75,7 @@ export type SitePowerResponse = {
 };
 
 export type SiteOverviewResponse = {
-  owerview: {
+  overview: {
     lastUpdateTime: string;
     lifeTimeData: {
       energy: number;
@@ -95,6 +95,34 @@ export type SiteOverviewResponse = {
     };
     currentPower: {
       power: number;
+    };
+  };
+};
+
+export type SitePowerFlowResponse = {
+  siteCurrentPowerFlow: {
+    unit: string;
+    connections: {
+      from: 'GRID' | 'LOAD' | 'PV' | 'STORAGE';
+      to: 'GRID' | 'LOAD' | 'PV' | 'STORAGE';
+    };
+    GRID: {
+      status: 'Active' | 'Idle' | 'Disabled';
+      currentPower: number;
+    };
+    LOAD: {
+      status: 'Active' | 'Idle' | 'Disabled';
+      currentPower: number;
+    };
+    PV?: {
+      status: 'Active' | 'Idle' | 'Disabled';
+      currentPower: number;
+    };
+    STORAGRE?: {
+      status: 'Active' | 'Idle' | 'Disabled';
+      currentPower: number;
+      chargeLevel: number;
+      critical: boolean;
     };
   };
 };

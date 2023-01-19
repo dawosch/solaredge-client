@@ -1,4 +1,5 @@
 import { getList, getDetails, getEnergy, getOverview, getPower } from './site';
+import { getPowerFlow } from './site/powerflow';
 import { SiteEnergyParams, SitePowerParams } from './types';
 
 const API_ORIGIN = 'https://monitoringapi.solaredge.com';
@@ -16,6 +17,7 @@ class SolarEdgeClient {
   public getEnergy = (params: SiteEnergyParams) => getEnergy(this.token, this.origin, params);
   public getPower = (params: SitePowerParams) => getPower(this.token, this.origin, params);
   public getOverview = (siteId: string) => getOverview(this.token, this.origin, siteId);
+  public getPowerFlow = (siteId: string) => getPowerFlow(this.token, this.origin, siteId);
 }
 
 export default SolarEdgeClient;
