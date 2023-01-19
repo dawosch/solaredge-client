@@ -103,8 +103,8 @@ export type SitePowerFlowResponse = {
   siteCurrentPowerFlow: {
     unit: string;
     connections: {
-      from: 'GRID' | 'LOAD' | 'PV' | 'STORAGE';
-      to: 'GRID' | 'LOAD' | 'PV' | 'STORAGE';
+      from: 'GRID' | 'Load' | 'PV' | 'STORAGE';
+      to: 'GRID' | 'Load' | 'PV' | 'STORAGE';
     }[];
     GRID: {
       status: 'Active' | 'Idle' | 'Disabled';
